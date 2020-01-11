@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(149, 229, 184);
+    text-align: center;
+    min-width: 400px;
+    display: block;
+    margin: 10px;
+}
+#title{
+    display: block;
+    font-size: 35px;
+}
+#main{
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    padding: 10px 30px;
+    color: rgb(82, 81, 81);
+    font-size: 18px;
+
+}
+.btn1{
+    list-style: none;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.label{
+    text-align: right;
+    width: 50%;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+.input1{
+    width: 50%;
+    text-align: left;
+    margin-left: 10px;
+}
+.main-input{
+    height: 20px;
+    width: 70%;
+    padding: 5px;
+    margin: 10px auto ;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+}
+.dropdown {
+    height: 3em;
+    width: 40%;
+    padding: 5px;
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+.radio {
+    position: relative;
+    left: -40px;
+    padding-bottom: 5px;
+}
+.rating {
+    float: left;
+    margin-right: 10px;
+}
+
+.checkbox {
+    position: relative;
+    left: -40px;
+    padding-bottom: 10px;
+}
+textarea {
+    background-color: white;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    border: 1px solid lightgray;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: start;
+    width: 70%;
+    height: 5em;
+    padding: 10px;
+    font-size: 15px;
+}
+#submit {
+    background-color: #41eb6b;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 80px;
+    margin: 20px;
+    border: none;
+}
